@@ -1,0 +1,13 @@
+KPI,Value,Source,Interpretation
+Revenue Gain % (ACN),13.8055,ACN,+13.8% = more revenue from surge pricing at overnight/evening hours
+Charger Util Improvement (UrbanEV),6.7353,UrbanEV,+6.7% from demand redistribution by dynamic pricing
+Off-Peak Station-Slots Reduced,19.0906,UrbanEV,+19.1% fewer idle station-slots after discount pricing uplift
+Surge Station-Slots Reduced,82.2415,UrbanEV,+82.2% fewer overloaded slots after surge pricing damps demand
+Avg Wait Time Reduction,13.9288,UrbanEV (proxy),+13.9% reduction in wait proxy across all timesteps
+Peak-Hour Wait Reduction,12.5245,UrbanEV (proxy),+12.5% reduction during peak hours 8–18h
+Customer Response Rate (ACN),5.0005,ACN + ε=-0.3,Avg |Δdemand|% per session given tariff change
+Pricing Efficiency Gain (ACN),13.8055,ACN,Rs/kWh: 15.0000 → 17.0708
+Best Demand Model,Ridge Regression,UrbanEV,Highest R² on held-out test set
+Best Model RMSE,0.008547,UrbanEV,Root mean squared error on utilization rate
+Best Model MAE,0.004305,UrbanEV,Mean absolute error on utilization rate
+Best Model R²,0.960305,UrbanEV,Coefficient of determination
